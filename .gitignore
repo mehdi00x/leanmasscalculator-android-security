@@ -1,0 +1,29 @@
+# Firebase private config
+app/google-services.json
+
+# Android / Gradle
+.gradle/
+build/
+app/build/
+.kotlin/
+
+# Android Studio
+.idea/
+*.iml
+
+# Local machine config
+local.properties
+
+# Generated packages
+*.apk
+*.aab
+
+# Signing keys
+*.jks
+*.keystore
+keystore.properties
+
+# Logs / OS files
+*.log
+.DS_Store
+Thumbs.db

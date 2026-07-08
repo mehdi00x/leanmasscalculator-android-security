@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Haltère centré dans la zone safe (18-90) -->
+    <!-- Plaque gauche -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M20,38 L28,38 L28,62 L20,62 Z"/>
+
+    <!-- Grip gauche -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M28,43 L38,43 L38,57 L28,57 Z"/>
+
+    <!-- Barre centrale -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,50 L70,50 L70,54 L38,54 Z"/>
+
+    <!-- Grip droit -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M70,43 L80,43 L80,57 L70,57 Z"/>
+
+    <!-- Plaque droite -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,38 L88,38 L88,62 L80,62 Z"/>
+
+    <!-- Grille calculatrice (touches blanches en bas) -->
+    <path android:fillColor="#90CAF9"
+        android:pathData="M39,68 A4,4 0 1,0 47,68 A4,4 0 1,0 39,68 Z"/>
+    <path android:fillColor="#90CAF9"
+        android:pathData="M50,68 A4,4 0 1,0 58,68 A4,4 0 1,0 50,68 Z"/>
+    <path android:fillColor="#90CAF9"
+        android:pathData="M61,68 A4,4 0 1,0 69,68 A4,4 0 1,0 61,68 Z"/>
+    <path android:fillColor="#BBDEFB"
+        android:pathData="M39,79 A4,4 0 1,0 47,79 A4,4 0 1,0 39,79 Z"/>
+    <path android:fillColor="#BBDEFB"
+        android:pathData="M50,79 A4,4 0 1,0 58,79 A4,4 0 1,0 50,79 Z"/>
+    <path android:fillColor="#42A5F5"
+        android:pathData="M61,79 A4,4 0 1,0 69,79 A4,4 0 1,0 61,79 Z"/>
+</vector>

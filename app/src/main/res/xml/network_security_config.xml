@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    MASVS-NETWORK-1 : Interdit tout trafic HTTP en clair.
+    Seules les connexions TLS (HTTPS) sont autorisées.
+    Firebase / Firestore utilisent déjà HTTPS — aucune régression fonctionnelle.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <!-- Uniquement les CA système — pas de CA utilisateur (évite les attaques MITM via proxy) -->
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+</network-security-config>

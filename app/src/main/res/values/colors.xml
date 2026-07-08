@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand palette -->
+    <color name="brand_dark">#0D1B4B</color>
+    <color name="brand_primary">#1565C0</color>
+    <color name="brand_accent">#42A5F5</color>
+    <color name="brand_light">#E3F2FD</color>
+    <color name="brand_surface">#F8FAFF</color>
+
+    <!-- Status -->
+    <color name="status_good">#2E7D32</color>
+    <color name="status_good_bg">#E8F5E9</color>
+    <color name="status_warning">#E65100</color>
+    <color name="status_warning_bg">#FFF3E0</color>
+
+    <!-- Text -->
+    <color name="text_primary">#0D1B4B</color>
+    <color name="text_secondary">#607D8B</color>
+    <color name="text_hint">#90A4AE</color>
+</resources>

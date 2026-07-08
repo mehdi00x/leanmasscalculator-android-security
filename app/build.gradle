@@ -1,0 +1,54 @@
+plugins {
+    alias(libs.plugins.android.application) //plugin android
+    id 'com.google.gms.google-services' //plugin firebase
+}
+
+android {
+    namespace 'com.example.leanmasscalculator'
+    compileSdk 36   //version SDK de compilation
+
+    buildFeatures {
+        viewBinding = true  //active la génération automatique des Bindings
+    }
+
+    defaultConfig {
+        applicationId "com.example.leanmasscalculator"
+        minSdk 24       // Android 7.0 minimum
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    // Bibliotheques Android standard
+    implementation libs.androidx.activity.ktx
+    implementation libs.androidx.appcompat
+    implementation libs.androidx.constraintlayout
+    implementation libs.androidx.core.ktx
+    implementation libs.material
+    testImplementation libs.junit
+    androidTestImplementation libs.androidx.espresso.core
+    androidTestImplementation libs.androidx.junit
+
+    // Firebase (BOM gère les versions automatiquement) -- BOM = Bill of Materials
+    implementation platform('com.google.firebase:firebase-bom:34.13.0')
+    implementation 'com.google.firebase:firebase-auth'      //authentification
+    implementation 'com.google.firebase:firebase-firestore'     //base de donnée Cloud
+    // UI supplementaire
+    implementation 'com.google.android.material:material:1.14.0'
+    implementation 'androidx.recyclerview:recyclerview:1.4.0'
+}

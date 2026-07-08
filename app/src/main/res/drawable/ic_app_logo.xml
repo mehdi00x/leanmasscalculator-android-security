@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Cercle de fond bleu marine -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M50,2 A48,48 0 1,0 50.01,2 Z"/>
+
+    <!-- Reflet en haut du cercle (effet brillant) -->
+    <path
+        android:fillColor="#3D7EC8"
+        android:pathData="M20,18 Q50,4 80,18 Q50,8 20,18 Z"/>
+
+    <!-- ═══ HALTÈRE ═══ -->
+    <!-- Plaque gauche extérieure -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M13,33 L21,33 L21,57 L13,57 Z"
+        android:strokeWidth="0.5"
+        android:strokeColor="#BBDEFB"/>
+
+    <!-- Grip gauche -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M21,37 L30,37 L30,53 L21,53 Z"/>
+
+    <!-- Barre centrale -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,43 L70,43 L70,47 L30,47 Z"/>
+
+    <!-- Grip droit -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M70,37 L79,37 L79,53 L70,53 Z"/>
+
+    <!-- Plaque droite extérieure -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M79,33 L87,33 L87,57 L79,57 Z"
+        android:strokeWidth="0.5"
+        android:strokeColor="#BBDEFB"/>
+
+    <!-- ═══ GRILLE CALCULATRICE (6 touches 2×3) ═══ -->
+    <!-- Ligne 1 -->
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M35,65 A3.5,3.5 0 1,0 42,65 A3.5,3.5 0 1,0 35,65 Z"/>
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M46.5,65 A3.5,3.5 0 1,0 53.5,65 A3.5,3.5 0 1,0 46.5,65 Z"/>
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M58,65 A3.5,3.5 0 1,0 65,65 A3.5,3.5 0 1,0 58,65 Z"/>
+
+    <!-- Ligne 2 -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M35,76 A3.5,3.5 0 1,0 42,76 A3.5,3.5 0 1,0 35,76 Z"/>
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M46.5,76 A3.5,3.5 0 1,0 53.5,76 A3.5,3.5 0 1,0 46.5,76 Z"/>
+    <!-- Touche "=" accentuée -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M58,76 A3.5,3.5 0 1,0 65,76 A3.5,3.5 0 1,0 58,76 Z"/>
+
+</vector>
